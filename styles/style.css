@@ -30,14 +30,6 @@ nav {
   overflow: hidden;
 }
 
-a:last-child {
-  border: none;
-}
-
-a:hover {
-  background-image: linear-gradient(to bottom, #555, #333, #555);
-}
-
 nav > a {
   flex: 1;
   display: grid;
@@ -47,6 +39,14 @@ nav > a {
   font-size: 13px;
   font-weight: bold;
   border-right: 1px solid #444;
+}
+
+nav > a:last-child {
+  border: none;
+}
+
+nav > a:hover {
+  background-image: linear-gradient(to bottom, #555, #333, #555);
 }
 
 .apple-logo {
